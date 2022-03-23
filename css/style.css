@@ -1,0 +1,222 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 1260px;
+    background-color:rgb(209, 208, 208);
+}
+.cabecalho{
+    width: 100%;
+    height:50px;
+    background-color:#222222;
+    border: 1px solid #222222;
+ }
+ .logo{
+     width:10%;
+     margin-top:1%;
+ }
+ .menu{
+     color: aliceblue;
+     margin-top:-3%;
+     margin-left: 70%;
+     list-style-type: none;
+     display: flex;
+     border: 1px solid #222222;
+     width:22%;
+ }
+ li{
+     margin: 2%;
+ }
+ .carrinho{
+     border: 1px solid #222222;
+     margin-left: 83%;
+     margin-top: 1%;
+     position: absolute;
+ }
+ 
+ .fundo{
+     width:100.2%;
+     height: 300px;
+ }
+span{
+    color: red;
+}
+h1{
+    color: aliceblue;
+    margin-top:-14%;
+    margin-left:29%;
+}
+.Rectangle{
+    width:10%;
+    margin-left:46%;
+    margin-top: 4%;
+}
+h2{
+    color: aliceblue;
+    margin-top:-3%;
+    margin-left:47%;
+}
+.cards{
+    border: 2px solid rgb(209, 208, 208);
+    width: 80%;   
+    height: 1000px;
+    margin-top:5%;
+}
+h3{
+    color: rgb(10, 10, 10);
+    margin-top:3%;
+    margin-left:39%;
+    font-size:200%;
+}
+.imagens1{
+    background-color: aliceblue;
+    display: flex;
+    border: 2px solid rgb(209, 208, 208);
+    width: 20%;
+    margin-left:15%;
+    margin-top: 1%;
+    height: 25%;
+    border-radius:5px;
+}
+.img1{
+    width:60%;
+    height:47%;
+    margin-top:10%;
+}
+hr{
+    background-color:rgb(102, 99, 99);
+    width:20%;
+    margin-left:15%;
+    margin-top: -10%;
+}
+.valor{
+    margin-left: 15%;
+    list-style-type: none;
+    line-height: 0%;
+    margin-top: 3%;
+}
+.x{
+    font-size:67%;
+}
+.envio{
+    color: green;
+    font-size: 56%;
+    
+}
+.imagens2{
+    background-color: aliceblue;
+    display: flex;
+    border: 2px solid rgb(209, 208, 208);
+    width: 20%;
+    margin-left:40%;
+    margin-top: -23.5%;
+    height: 25%;
+    border-radius:5px;
+}
+.img2{
+    width:60%;
+    height:47%;
+    margin-top:10%;
+}
+.valor2{
+    margin-left: 42%;
+    list-style-type: none;
+    line-height: 24%;
+    margin-top: 3%;
+}
+.hr2{
+    background-color:rgb(102, 99, 99);
+    width:20%;
+    margin-left:40%;
+    margin-top: -10%;
+}
+.imagens3{
+    background-color: aliceblue;
+    display: flex;
+    border: 2px solid rgb(209, 208, 208);
+    width: 20%;
+    margin-left:65%;
+    margin-top: -23%;
+    height: 25%;
+    border-radius:5px;
+}
+.img3{
+    width:60%;
+    height:47%;
+    margin-top:10%;
+}
+.valor3{
+    margin-left: 68%;
+    list-style-type: none;
+    line-height: 50%;
+    margin-top: 2.8%;
+}
+.hr3{
+    background-color:rgb(102, 99, 99);
+    width:20%;
+    margin-left:65%;
+    margin-top: -10%;
+}
+.estrelas{
+    border: 2px solid rgb(209, 208, 208);
+    display:flex;
+    margin-top: 15%;
+    height:250px;
+}
+h4{
+    margin-left:45%;
+    font-size:150%;
+    font-family: roboto, serif;
+}
+.cadeira{
+    width:30%;
+    height:50%;
+    margin-top:6%;
+    margin-left: -59%;
+    border-radius: 4%;
+}
+.gamer{
+    margin-top:9%;
+    margin-left:17%;
+    color: white;
+    position: absolute;
+}
+.pc{
+    width:30%;
+    height:50%;
+    margin-top:6%;
+    border-radius: 4%;
+}
+.pc1{
+    margin-top:9%;
+    margin-left:56%;
+    color: white;
+    position: absolute;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid maroon
+}
+.pe1{
+    width: 100%;
+    height: 180px;
+    background-color:#222222;
+}
+.logo2{
+    margin-top:5%;
+    margin-left: 6%;
+    position: absolute;
+}
+.redes{
+    margin-left:79%;
+    margin-top: 4%;
+}
+.pe2{
+    background-color: #C4C4C4;
+}
+p{
+    margin-left:40%;
+}
+
