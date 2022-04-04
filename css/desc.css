@@ -44,15 +44,45 @@ a {
     margin-left: 50px;
 }
 .cards{
-    border: 2px solid black;
-    height:1000px;
+    height:350px;
 }
 .fifa21{
     top:200px;
     margin: 5px auto;
-    border: 2px solid;
     width:950px;
     height: 300px;  
+}
+h1{
+    margin-left:415px ;
+}
+.divsection{
+    height: 350px;
+}
+.img{
+    margin-left :400px;
+}
+.descricao{
+    margin-top:20px;
+}
+.bottom{
+    position: absolute;
+    width: 220px;
+    height: 61px;
+    left: 510px;
+    top: 360px;
+    cursor: pointer;
+    background-color:red;
+}
+.comprar{
+    color:white
+    
+}
+.trailer{
+    margin-left: 535px;
+}
+.fifa{
+    width:500px;
+    margin-left: 390px;
 }
 .alunosgps {
     background-color: #222222;
@@ -69,4 +99,6 @@ a {
 
 .checkpoint {
     background-color: #222222;
+    color: white;
+    text-align: center;
 }
