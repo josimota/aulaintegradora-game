@@ -62,15 +62,14 @@ span {
     color: red;
 }
 
-.retangulo {
-    border: 2px solid red;
-    width: 15%;
-    height: 2.5rem;
-    border-radius: 1rem;
-    top: 45%;
-    left: 42%;
+.butom2 {
     position: absolute;
-    background-color: red;
+    width: 220px;
+    height: 61px;
+    left: 540px;
+    top: 300px;
+    cursor: pointer;
+    background-color:red;
 }
 
 h2 {
@@ -89,16 +88,10 @@ h3 {
     height: 700px;
 
 }
-
-button {
+.bottom {
     background-color: #33BB69;
     width: 50px;
     height: 20px;
-
-}
-
-.bottom {
-    color: #33BB69;
 }
 
 .cardprimeira {

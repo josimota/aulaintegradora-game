@@ -1,0 +1,72 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+body {
+    width: 1260px;
+    background-color: #C4C4C4;
+}
+
+.cabecalho {
+    width: 99.6%;
+    height: 80px;
+    border: 2px solid black;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
+.logo {
+    width: 10%;
+    height: 45%;
+    margin-top: 1%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 5%;
+    font-size: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carrinho {
+    height: 25px;
+    margin-left: 50px;
+}
+.cards{
+    border: 2px solid black;
+    height:1000px;
+}
+.fifa21{
+    top:200px;
+    margin: 5px auto;
+    border: 2px solid;
+    width:950px;
+    height: 300px;  
+}
+.alunosgps {
+    background-color: #222222;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.alunosgps img {
+    width: 50px;
+}
+
+.checkpoint {
+    background-color: #222222;
+}
