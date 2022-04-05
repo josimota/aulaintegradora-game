@@ -5,12 +5,11 @@
 }
 
 body {
-    width: 1260px;
     background-color: #C4C4C4;
 }
 
 .cabecalho {
-    width: 99.6%;
+    width: 100%;
     height: 80px;
     border: 2px solid black;
     gap: 2rem;
@@ -18,12 +17,11 @@ body {
     justify-content: space-around;
     background-color: #222222;
     position: fixed;
+    align-items: center;
 }
 
 .logo {
-    width: 10%;
-    height: 45%;
-    margin-top: 1%;
+    height: 30px;
 }
 
 ul {
@@ -69,9 +67,10 @@ span {
     left: 540px;
     top: 300px;
     cursor: pointer;
-    background-color:red;
-    cursor:pointer;
-}  
+    background-color: red;
+    cursor: pointer;
+}
+
 h2 {
     color: white;
     text-align: center;
@@ -88,6 +87,7 @@ h3 {
     height: 700px;
 
 }
+
 .bottom {
     background-color: #33BB69;
     width: 50px;
@@ -373,144 +373,89 @@ h4 {
 .checkpoint {
     background-color: #222222;
 }
-
-
-
-
-@media screen and (max-width:412px) {
-    .cabecalho {
-        width: 30%;
-        gap: 2%;
-        margin: 0;
-        justify-content: space-around;
+@media (max-width: 426px) {
+    /* body {
+        margin:0;
+        width:40%;
+    } */
+    .cabecalho{
+        width:100%;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    
     }
-
-    li {
-        font-size: 35%;
-        margin-left: 13%;
+    .logo{
+        width:25%;
     }
-
-    .carrinho {
-        display: none;
+    .lista{
+        display:none;
     }
-
-    .fundo {
-        width: 30%;
+    .butom2{
+        justify-content:center;
+        left: 20%;
     }
-
-    .logo {
-        width: 28%;
-        margin-left: 1%;
-        margin: 0;
-        margin-top: 1%;
+    .fundo{
+        width:260%;
     }
-
-    h1 {
-        position: absolute;
-        left: 3%;
-        top: 30%;
-        font-size: 1.5rem;
+    
+    h3{
+        margin-left: 63%;
     }
-
-    .retangulo {
-        width: 27%;
-        height: 2.5rem;
-        top: 55%;
-        left: 30%;
+    h1{
+        top:15%;
+        text-align:center;
+        width:50%;
+        left: 19%;
     }
-
-    h3 {
-        position: absolute;
-        left: 6%;
-    }
-
-    .cards {
-        left: 1%;
+    .cards{
         flex-direction: column;
-        margin-left: -32%;
-        margin-top: 25%;
+        width:210%;
+        height:1000%;
     }
-
-    .card1 {
-        width: 15%;
-        height: 20rem;
-    }
-
-    .img1 {
-        width: 60%;
-    }
-
-    .card2 {
-        width: 15%;
-        height: 20rem;
-    }
-
-    .img2 {
-        width: 60%;
-    }
-
-    .card3 {
-        width: 15%;
-        height: 20rem;
-    }
-
-    .img3 {
-        width: 60%;
-    }
-
-    .estrelas {
-        margin-left: 1%;
-        width: 10%;
+    .cardprimeira{
+        margin-top:1%;
         flex-direction: column;
-        margin-top: 10%;
+        width:80%;
+        height:100%;
+    }
+    .footer{
+        margin-top:200%;
+        width:260%;
+    
+    }
+    .card1{
+        width:80%;
+        margin-top:5%;
+        height:20%;
     }
 
-    .mesa {
-        width: 220%;
-        margin-left: 11%;
-        margin-top: 3%;
+    .card2{
+        width:80%;
+        margin-top:5%;
+        height:20%;
     }
-
-    .cadeira {
-        width: 220%;
-        border-radius: 1rem;
-        margin-left: 13%;
+    .card3{
+        width:80%;
+        margin-top:5%;
+        height:20%;
     }
-
-    h5 {
-        position: absolute;
-        top: 155%;
-        margin-left: 19%;
-    }
-
-    h6 {
-        position: absolute;
-        top: 167%;
-        margin-left: 23%;
-    }
-
-    footer {
-        margin: 0%;
-        width: 26%;
-        margin-top: 1%;
-        justify-content: space-around;
-    }
-
-    .jogo {
-        width: 40%;
-        height: 4rem;
-        margin-top: 2%;
-        margin-left: 30%;
-    }
-
-    .redes {
-        width: 35%;
-        margin-top: 25%;
-        margin-left: -200%
-    }
-
-    h7 {
-        margin-left: 12%;
+    .cardseg{
+        flex-direction: column;
+        margin-top:90%;
 
     }
+    .card4{
+        width:65%;
+    }
+    .card5{
+        width:65%;
+    }
+    .card6{
+        width:65%;
+    }
+   
+  
+    
+
 }
