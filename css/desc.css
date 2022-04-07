@@ -10,19 +10,15 @@ body {
 }
 
 .cabecalho {
-    width: 99.6%;
+    width: 100%;
     height: 80px;
-    border: 2px solid black;
-    gap: 2rem;
     display: flex;
     justify-content: space-around;
     background-color: #222222;
+    align-items: center;
 }
-
 .logo {
-    width: 10%;
-    height: 45%;
-    margin-top: 1%;
+     height: 30px;
 }
 
 ul {
@@ -41,7 +37,6 @@ a {
 
 .carrinho {
     height: 25px;
-    margin-left: 50px;
 }
 .cards{
     height:350px;
